@@ -13,5 +13,16 @@
   "result": {
     "item": "bambootiful:vertical_bamboo_planks",
     "count": 3
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "quark"
+        }
+      ]
+    }
+  ]
 }
