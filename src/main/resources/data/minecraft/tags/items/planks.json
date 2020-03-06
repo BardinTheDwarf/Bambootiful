@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "bambootiful:bamboo_planks",
-    "bambootiful:dried_bamboo_planks"
+    "bambootiful:dried_bamboo_planks",
+    "bambootiful:vertical_bamboo_planks",
+    "bambootiful:vertical_dried_bamboo_planks"
   ]
 }

@@ -1,16 +1,16 @@
-modLoader="javafml" #mandatory
-loaderVersion="[30,)" #mandatory (28 is current forge version)
-issueTrackerURL="https://github.com/bageldotjpg/Bambootiful/issues" #optional
+modLoader="javafml"
+loaderVersion="[28,)"
+issueTrackerURL="https://github.com/bageldotjpg/Bambootiful/issues"
 
-[[mods]] #mandatory
-modId="bambootiful" #mandatory
-version="1.1.1" #mandatory
-displayName="Bambootiful" #mandatory
-displayURL="https://discord.gg/zVBFsXp" #optional
-logoFile="bambootiful" #optional
-credits="TheVillagerKing - textures" #optional
-authors="bageldotjpg" #optional
-
+[[mods]]
+modId="bambootiful"
+version="${file.jarVersion}"
+displayName="Bambootiful"
+# updateJSONURL="http://myurl.me/"
+displayURL="https://discord.gg/zVBFsXp"
+logoFile="bambootiful"
+authors="bageldotjpg"
+credits="TheVillagerKing - textures"
 description='''
 Bambootiful expands on Bamboo.
 It will introduce new blocks, mobs, and weapons themed around Bamboo!
