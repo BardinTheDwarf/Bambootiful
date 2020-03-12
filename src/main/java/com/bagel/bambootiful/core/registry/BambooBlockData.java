@@ -4,7 +4,7 @@ import com.bagel.bambootiful.core.util.DataUtils;
 
 public class BambooBlockData {
 	public static void registerCompostables() {
-		//DataUtils.registerCompostable(0.3F, BambooBlocks.DRIED_BAMBOO.get());
+		DataUtils.registerCompostable(0.65F, BambooBlocks.THATCH.get());
 	}
 	
 	public static void registerFlammables() {

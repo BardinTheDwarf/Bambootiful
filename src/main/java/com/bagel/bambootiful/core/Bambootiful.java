@@ -10,7 +10,6 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DistExecutor;
-import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -19,7 +18,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod("bambootiful")
 public class Bambootiful
 {
-    //private static final Logger LOGGER = LogManager.getLogger();
     public static final String MODID = "bambootiful";
 
     public Bambootiful() {
@@ -29,10 +27,6 @@ public class Bambootiful
         
         BambooBlocks.BLOCKS.register(modEventBus);
         BambooItems.ITEMS.register(modEventBus);
-        //BambooBiomes.BIOMES.register(modEventBus);
-        //BambooEntities.ENTITY_TYPES.register(modEventBus);
-        //BambooEffects.EFFECTS.register(modEventBus);
-        //BambooEffects.POTIONS.register(modEventBus);
         
         MinecraftForge.EVENT_BUS.register(this);
     }
@@ -45,11 +39,8 @@ public class Bambootiful
     
     private void setup(final FMLCommonSetupEvent event)
 	{    	
-        //BambootifulBiomes.registerBiomesToDictionary();
     	BambooBlockData.registerCompostables();
     	BambooBlockData.registerFlammables();
-    	//BambootifulBlockData.registerStrippables();
-    	//BambootifulEffects.registerBrewingRecipes();	
 	}
     
     
@@ -57,14 +48,12 @@ public class Bambootiful
     {
     	RenderTypeLookup.setRenderLayer(BambooBlocks.BAMBOO_DOOR.get(),RenderType.cutout());
 		RenderTypeLookup.setRenderLayer(BambooBlocks.DRIED_BAMBOO_DOOR.get(),RenderType.cutout());
+		
 		RenderTypeLookup.setRenderLayer(BambooBlocks.BAMBOO_TRAPDOOR.get(),RenderType.cutout());
 		RenderTypeLookup.setRenderLayer(BambooBlocks.DRIED_BAMBOO_TRAPDOOR.get(),RenderType.cutout());
-		if (ModList.get().isLoaded("quark")) {
-			RenderTypeLookup.setRenderLayer(BambooBlocks.BAMBOO_LADDER.get(),RenderType.cutout());
-			RenderTypeLookup.setRenderLayer(BambooBlocks.DRIED_BAMBOO_LADDER.get(),RenderType.cutout());
-		}
-    	//ColorUtils.registerBlockColors();
-    	//RenderingRegistry.registerEntityRenderingHandler(BambootifulBoatEntity.class, BambootifulBoatRenderer::new);
+		
+		RenderTypeLookup.setRenderLayer(BambooBlocks.BAMBOO_LADDER.get(),RenderType.cutout());
+		RenderTypeLookup.setRenderLayer(BambooBlocks.DRIED_BAMBOO_LADDER.get(),RenderType.cutout());
     }
     
 }
