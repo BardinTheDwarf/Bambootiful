@@ -14,7 +14,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod("bambootiful")
 public class Bambootiful
 {
-    //private static final Logger LOGGER = LogManager.getLogger();
     public static final String MODID = "bambootiful";
 
     public Bambootiful() {
@@ -24,10 +23,6 @@ public class Bambootiful
         
         BambooBlocks.BLOCKS.register(modEventBus);
         BambooItems.ITEMS.register(modEventBus);
-        //BambooBiomes.BIOMES.register(modEventBus);
-        //BambooEntities.ENTITY_TYPES.register(modEventBus);
-        //BambooEffects.EFFECTS.register(modEventBus);
-        //BambooEffects.POTIONS.register(modEventBus);
         
         MinecraftForge.EVENT_BUS.register(this);
     }
@@ -35,18 +30,13 @@ public class Bambootiful
     
     private void setup(final FMLCommonSetupEvent event)
 	{    	
-        //BambootifulBiomes.registerBiomesToDictionary();
     	BambooBlockData.registerCompostables();
     	BambooBlockData.registerFlammables();
-    	//BambootifulBlockData.registerStrippables();
-    	//BambootifulEffects.registerBrewingRecipes();	
 	}
     
     
     private void clientSetup(final FMLClientSetupEvent event) 
     {
-    	//ColorUtils.registerBlockColors();
-    	//RenderingRegistry.registerEntityRenderingHandler(BambootifulBoatEntity.class, BambootifulBoatRenderer::new);
     }
     
 }
