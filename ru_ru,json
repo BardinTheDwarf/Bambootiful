@@ -1,0 +1,38 @@
+{
+	"block.bambootiful.bamboo_planks": "Бамбуковые доски",
+	"block.bambootiful.bamboo_stairs": "Бамбуковая лестница",
+	"block.bambootiful.bamboo_slab": "Бамбуковая плита",
+	"block.bambootiful.bamboo_fence": "Бамбуковый забор",
+	"block.bambootiful.bamboo_fence_gate": "Бамбуковая калитка",
+	"block.bambootiful.bamboo_door": "Бамбуковая дверь",
+	"block.bambootiful.bamboo_trapdoor": "Бамбуковый люк",
+	"block.bambootiful.bamboo_button": "Бамбуковая кнопка",
+	"block.bambootiful.bamboo_pressure_plate": "Бамбуковая нажимная плита",
+	"block.bambootiful.bamboo_pillar": "Бамбуковая колонна",
+	"block.bambootiful.vertical_bamboo_planks": "Бамбуковые вертикальные доски",
+	"block.bambootiful.bamboo_vertical_slab": "Бамбуковая вертикальная плита",
+	"block.bambootiful.bamboo_bookshelf": "Бамбуковая книжная полка",
+	"block.bambootiful.bamboo_ladder": "Бамбуковая лестница",
+	
+	"item.bambootiful.dried_bamboo": "Сухой бамбук",
+	
+	"block.bambootiful.dried_bamboo_planks": "Доски из сухого бамбука",
+	"block.bambootiful.dried_bamboo_stairs": "Лестница из сухого бамбука",
+	"block.bambootiful.dried_bamboo_slab": "Плита из сухого бамбука",
+	"block.bambootiful.dried_bamboo_fence": "Забор из сухого бамбука",
+	"block.bambootiful.dried_bamboo_fence_gate": "Калитка из сухого бамбука",
+	"block.bambootiful.dried_bamboo_door": "Дверь из сухого бамбука",
+	"block.bambootiful.dried_bamboo_trapdoor": "Люк из сухого бамбука",
+	"block.bambootiful.dried_bamboo_button": "Кнопка из сухого бамбука",
+	"block.bambootiful.dried_bamboo_pressure_plate": "Нажимная плита из сухого бамбука",
+	"block.bambootiful.dried_bamboo_pillar": "Колонна из сухого бамбука",
+	"block.bambootiful.vertical_dried_bamboo_planks": "Вертикальные доски из сухого бамбука",
+	"block.bambootiful.dried_bamboo_vertical_slab": "Вертикальная плита из сухого бамбука",
+	"block.bambootiful.dried_bamboo_bookshelf": "Книжная полка из сухого бамбука",
+	"block.bambootiful.dried_bamboo_ladder": "Лестница из сухого бамбука",
+	
+	"block.bambootiful.thatch": "Тростниковый блок",
+	"block.bambootiful.thatch_stairs": "Тростниковые ступеньки",
+	"block.bambootiful.thatch_slab": "Тростниковая плита",
+	"block.bambootiful.thatch_vertical_slab": "Вертикальная тростниковая плита"
+}
